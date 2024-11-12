@@ -1,13 +1,7 @@
-.practiceTable {
+body {
   text-align: center;
-  border-collapse:collapse;
-  width: 800px;;
 }
 
-td, th {
-  border: 1px solid red;
-  text-align: center;
-}
 
 table {
   width: 200px;
@@ -15,10 +9,17 @@ table {
   text-align: center;
   border: 5px solid green;
   }
+
   th, td {
   border: 1px solid red;
+  width: 50px
   }
+
   td:hover {
   background-color: lightcoral;
   color: white;
+  }
+
+  .resultButton {
+    text-align: right;
   }
